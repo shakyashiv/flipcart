@@ -8,8 +8,15 @@ class kids extends StatelessWidget{
         children: [
           Padding(padding: EdgeInsets.all(20)),
           Center(
-            child: Text('kids',style: TextStyle(fontSize: 30,fontWeight: FontWeight.w800,
-            color: Colors.black),),
+            child: Column(
+              children: [
+                Text('kids',style: TextStyle(fontSize: 30,fontWeight: FontWeight.w800,
+                color: Colors.black),),
+                Icon(Icons.accessibility_new,size: 30,),
+              ],
+            ),
+        
+            
           )
         ],
       ) ,
